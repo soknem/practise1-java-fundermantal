@@ -4,11 +4,18 @@ public class
 Pheaktra {
     public static void practise()
     {
-        //p8
-        int x = 5;
-        int y = 10;
-        System.out.println("x > 0 && y < 15  : " + (x > 0 && y < 15));
-        System.out.println("x < 0 || y > 15  : " + (x < 0 || y > 15));
-        System.out.println("!(x == y)        : " + !(x == y));
+        //p9
+        int a9  = 5;
+            a9 += 2;
+        System.out.println("a9 += 2 : " + a9);
+            a9 -= 1;
+        System.out.println("a9 -= 1 : " + a9);
+            a9 *= 3;
+        System.out.println("a9 *= 3 : " + a9);
+            a9 /= 2;
+        System.out.println("a9 /= 2 : " + a9);
+            a9 %= 2;
+        System.out.println("a9 %= 2 : " + a9);
+
     }
 }
