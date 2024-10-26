@@ -4,15 +4,20 @@ public class
 Pheaktra {
     public static void practise()
     {
-        //p4
-        Integer a4 = 25;
-        int b4 = a4;
-        System.out.println("a4 (25) unboxed to int      : " + b4);
+        //p5
+        int a = 15;
+        int b = 4;
+        int addition       = a + b;
+        int subtraction    = a - b;
+        int multiplication = a * b;
+        int division       = a / b;
+        int modulus        = a % b;
 
-        Double c4 = 56.78;
-        double d4 = c4;
-        System.out.println("c4 (56.78) unboxed to double: " + d4);
-
+        System.out.println("Addition (a + b)      : " + addition);
+        System.out.println("Subtraction (a - b)   : " + subtraction);
+        System.out.println("Multiplication (a * b): " + multiplication);
+        System.out.println("Division (a / b)      : " + division);
+        System.out.println("Modulus (a % b)       : " + modulus);
 
     }
 }
