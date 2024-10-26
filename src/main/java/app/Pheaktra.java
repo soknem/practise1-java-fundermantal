@@ -5,13 +5,14 @@ Pheaktra {
 
     public static void practise()
     {
-        //p13
+        //p14
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name   : ");
-        String name     = scanner.nextLine();
-        System.out.print("Enter your age    : ");
-        int age         = scanner.nextInt();
-        System.out.println("Hello, " + name + "! You are " + age + " years old.");
+        System.out.print("Enter names separated by commas   : ");
+        String input = scanner.nextLine();
+        String[] names = input.split(",\\s*");
+        for (String name : names) {
+            System.out.println(name);
+        }
         scanner.close();
 
     }
