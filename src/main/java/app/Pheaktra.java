@@ -4,18 +4,19 @@ public class
 Pheaktra {
     public static void practise()
     {
-        //p9
-        int a9  = 5;
-            a9 += 2;
-        System.out.println("a9 += 2 : " + a9);
-            a9 -= 1;
-        System.out.println("a9 -= 1 : " + a9);
-            a9 *= 3;
-        System.out.println("a9 *= 3 : " + a9);
-            a9 /= 2;
-        System.out.println("a9 /= 2 : " + a9);
-            a9 %= 2;
-        System.out.println("a9 %= 2 : " + a9);
+        //p9men
+        int x = 7;
+        System.out.println("x before increment: " + x);
+        System.out.println("++x  : " + (++x));
+        System.out.println("x++  : " + (x++));
+
+        System.out.println("x after increment: " + x);
+
+        System.out.println("--x: " + (--x));
+
+        System.out.println("x--: " + (x--));
+        System.out.println("x after decrement: " + x);
+
 
     }
 }
