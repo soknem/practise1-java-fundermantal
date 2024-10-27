@@ -39,6 +39,21 @@ public class Rany {
         System.out.println("Short="+wapperclasessshort);
 
 //        2
+        System.out.println("Ty Casing");
+        double doublecast   =9.99;
+        int intcast=(int )doublecast;
+        System.out.println("doublecast (9.99) cast to int"+intcast);
+        float floatvalue=5.75f;
+        long longvalue=(long)floatvalue;
+        System.out.println("floatvalue(5.75) cast to long:"+longvalue);
+        System.out.println("Autoboxing");
+        int PInt=10;
+        Integer wrapperInt=PInt;
+        System.out.println("primitiveInt (10) autobpxed to Integer:"+PInt);
+        double PDouble=12.34;
+        Double wDouble=PDouble;
+        System.out.println("PrimitiveDouble (12.34) autobooxing"+PDouble);
+        System.out.println("Unboxing:");
 
     }
 }
