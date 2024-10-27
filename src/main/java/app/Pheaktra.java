@@ -5,15 +5,13 @@ Pheaktra {
 
     public static void practise()
     {
-        //p14
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter names separated by commas   : ");
-        String input = scanner.nextLine();
-        String[] names = input.split(",\\s*");
-        for (String name : names) {
-            System.out.println(name);
-        }
-        scanner.close();
+        //p2
+        double a2 = 9.99;
+        int b2    = (int) a2;
+        System.out.println("a2 (9.99) cast to int : " + b2);
 
+        float c2 = 5.75f;
+        long d2  = (long) c2;
+        System.out.println("c2 (5.75) cast to long: " + d2);
     }
 }
