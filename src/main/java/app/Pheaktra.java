@@ -154,6 +154,7 @@ Pheaktra {
         System.out.println("Hello, " + name + "! You are " + age + " years old.");
         scanner.close();
 
+
         //p14
 //        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter names separated by commas   : ");
