@@ -65,27 +65,27 @@ Pheaktra {
         double d4 = c4;
         System.out.println("c4 (56.78) unboxed to double: " + d4);
         //p5
-        int a = 15;
-        int b = 4;
-        int addition       = a + b;
-        int subtraction    = a - b;
-        int multiplication = a * b;
-        int division       = a / b;
-        int modulus        = a % b;
+        int a5 = 15;
+        int b5 = 4;
+        int addition       = a5 + b5;
+        int subtraction    = a5- b5;
+        int multiplication = a5 * b5;
+        int division       = a5 / b5;
+        int modulus        = a5 % b5;
         System.out.println("Addition (a + b)      : " + addition);
         System.out.println("Subtraction (a - b)   : " + subtraction);
         System.out.println("Multiplication (a * b): " + multiplication);
         System.out.println("Division (a / b)      : " + division);
         System.out.println("Modulus (a % b)       : " + modulus);
         //p6
-        int a = 10;
-        int b = 15;
-        System.out.println("a > b  : " + (a > b));
-        System.out.println("a < b  : " + (a < b));
-        System.out.println("a >= b : " + (a >= b));
-        System.out.println("a <= b : " + (a <= b));
-        System.out.println("a == b : " + (a == b));
-        System.out.println("a != b : " + (a != b));
+        int a6 = 10;
+        int b6 = 15;
+        System.out.println("a > b  : " + (a6 > b6));
+        System.out.println("a < b  : " + (a6 < b6));
+        System.out.println("a >= b : " + (a6 >= b6));
+        System.out.println("a <= b : " + (a6 <= b6));
+        System.out.println("a == b : " + (a6 == b6));
+        System.out.println("a != b : " + (a6 != b6));
 
         //p7
         int x = 5;
@@ -108,35 +108,35 @@ Pheaktra {
         System.out.println("a9 %= 2 : " + a8);
 
         //p9
-        int x = 7;
-        System.out.println("x before increment: " + x);
-        System.out.println("++x  : " + (++x));
-        System.out.println("x++  : " + (x++));
-        System.out.println("x after increment: " + x);
-        System.out.println("--x: " + (--x));
-        System.out.println("x--: " + (x--));
-        System.out.println("x after decrement: " + x);
+        int x3 = 7;
+        System.out.println("x before increment: " + x3);
+        System.out.println("++x  : " + (++x3));
+        System.out.println("x++  : " + (x3++));
+        System.out.println("x after increment: " + x3);
+        System.out.println("--x: " + (--x3));
+        System.out.println("x--: " + (x3--));
+        System.out.println("x after decrement: " + x3);
 
         //p10
-        int a = 6;
-        int b = 3;
-        int and = a & b;
+        int a7 = 6;
+        int b7 = 3;
+        int and = a7 & b7;
         System.out.println("a & b   : " + and);
-        int or = a | b;
+        int or = a7 | b7;
         System.out.println("a | b   : " + or);
-        int xor = a ^ b;
+        int xor = a7 ^ b7;
         System.out.println("a ^ b   : " + xor);
-        int not = ~a;
+        int not = ~a7;
         System.out.println("~a      : " + not);
-        int leftShift = a << 1;
+        int leftShift = a7 << 1;
         System.out.println("a << 1  : " + leftShift);
-        int rightShift = a >> 1;
+        int rightShift = a7 >> 1;
         System.out.println("a >> 1  : " + rightShift);
 
         //p11
-        int x = 8;
-        int y = 10;
-        int greater = (x > y) ? x : y;
+        int x1 = 8;
+        int y1 = 10;
+        int greater = (x1 > y1) ? x1 : y1;
         System.out.println("Greater value   : " + greater);
 
         //p12
@@ -160,8 +160,8 @@ Pheaktra {
         System.out.print("Enter names separated by commas   : ");
         String input = scanner.nextLine();
         String[] names = input.split(",\\s*");
-        for (String name : names) {
-            System.out.println(name);
+        for (String name1 : names) {
+            System.out.println(name1);
         }
         scanner.close();
 
